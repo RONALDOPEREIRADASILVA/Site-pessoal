@@ -43,7 +43,7 @@
                 <h1>Pesquisar Gastos</h1>
                 <nav class="navbar navbar-light">
                     <form class="form-inline" action="pesquisa.php" method="post">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" name="busca" autofocus>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisa" aria-label="Pesquisa" name="busca" autofocus>
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
                     </form>
                 </nav>
