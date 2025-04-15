@@ -1,0 +1,68 @@
+
+body{
+    background-color: blue;
+}
+nav{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+    color: aliceblue;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+
+}
+li{
+    color: aliceblue;
+}
+
+ .cen img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(151, 255, 47);
+}
+.cen {
+    text-align: center;
+    color: aliceblue;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+
+}
+footer{
+    display:flex ;
+    justify-content:center;
+}
+footer a {
+   margin: 20px;
+   text-align: center; 
+}
+/*.container{
+    padding: 0px 50px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+*/
+section{
+    text-align: center;
+}
+
+ .certificados img{
+     text-align: center;
+     margin: 10px;
+     width: 400px;
+     height: 400px;
+     border-radius: 50%;
+     border: 5px solid rgb(151, 255, 47);
+
+    }
