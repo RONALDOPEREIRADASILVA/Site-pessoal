@@ -23,7 +23,12 @@
         padding-top: 30px;
         border-radius: 10px;
     }
-   
+    .formatura img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid greenyellow;
+    }
     header >h1{
         color:rgb(228, 230, 237);
         font-family: Arial, Helvetica, sans-serif;
