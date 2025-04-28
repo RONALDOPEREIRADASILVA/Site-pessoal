@@ -21,3 +21,9 @@ function carregar(){
         document.body.style.background='#7D7D7D'
     }
 }
+var formatura = document.querySelectorAll('.formatura img')[0];
+setTimeout(()=>{
+    
+     formatura.classList.add('animEsquerda')
+
+},2000);
