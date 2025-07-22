@@ -29,10 +29,12 @@
         border-radius: 50%;
         border: 5px solid greenyellow;
     }
+    
+    
     .animEsquerda{
         transition: 1s;
         margin-left: 90px;
-        background-color: red;
+        border:  red;
     }
     header >h1{
         color:rgb(228, 230, 237);
@@ -208,3 +210,29 @@
         border-radius: 10px;
         text-align: center;
     }   
+        .container2{
+            position: relative;
+            height: 500px;
+        }
+        .container2 img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            opacity: 0;
+        }
+        .bullets{
+            text-align: center;
+        }
+        .bullet-single{
+            margin: 0 8px;
+            cursor: pointer;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #ccc;
+        }
+        .active-bullet{
+            background-color: #333;
+        }

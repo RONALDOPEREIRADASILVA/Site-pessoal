@@ -22,8 +22,13 @@ function carregar(){
     }
 }
 var formatura = document.querySelectorAll('.formatura img')[0];
-setTimeout(()=>{
+/*setTimeout(()=>{
     
      formatura.classList.add('animEsquerda')
 
-},2000);
+},2000); */
+
+formatura.addEventListener('click' ,() =>{
+    formatura.classList.add('animEsquerda');
+})
+

@@ -42,7 +42,7 @@
                         <input type="date" class="form-control" name="data" id="data">
                     </div>
                     <div class="form group">
-                        <label for="deposito">cadsatro de deposito</label>
+                        <label for="deposito">cadastro de deposito</label>
                         <input type="text" class="form-control" name="deposito" id="deposito">
                     </div>
                     <div class="form group">
